@@ -38,7 +38,7 @@ void rotate(vector<vector<int> > &matrix) {
     }
 }
 
-void PrintMatrix(vector<vector<int> > &matrix) 
+void printMatrix(vector<vector<int> > &matrix) 
 {
     for(int i=0; i<matrix.size(); i++){
         for(int j=0; j< matrix[i].size(); j++) {
@@ -65,9 +65,9 @@ int main(int argc, char** argv)
         matrix.push_back(v);
     }
 
-    PrintMatrix(matrix);
+    printMatrix(matrix);
     rotate(matrix);
-    PrintMatrix(matrix);
+    printMatrix(matrix);
 
     return 0;
 }
